@@ -1,3 +1,8 @@
+@font-face {
+  font-family: norse;
+  src: url(../fonts/Norse-Bold.otf);
+}
+
 :root {
   --create-button: #596D48;
   --input-border: #E5E7EB;
@@ -6,27 +11,48 @@ body {
   background-color: rgb(240, 240, 240);
   display: flex;
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
   background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
   background-size: cover;
   background-position: center;
-  width: 35vw;
+  width: 30vw;
 
   display: flex;
   flex-direction: column;
-  padding-top: 70px;
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
-main {
-  width: 55vw;
-}
-
 .logo {
-  background-color: rgba(0, 0, 0, 0.453);
+  background-color: rgba(0, 0, 0, 0.448);
+
   display: flex;
   justify-content: center;
   padding: 10px 0;
+  margin-bottom: auto;
+  min-height: 113.575px;
 }
 .logo img {
-  width: min(45px, 10vw);
+  width: 70px;
+}
+.site-name {
+  font-family: norse;
+  color: white;
+  align-self: center;
+  font-size: 4.8rem;
+}
+.credits p {
+  margin: 0;
+  font-size: .8rem;
+  color: rgba(255, 255, 255, 0.715);
+  text-align: center;
+}
+.credits a {
+  color: inherit;
+}
+
+main {
+  width: 70vw;
 }
