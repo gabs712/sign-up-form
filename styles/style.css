@@ -1,0 +1,32 @@
+:root {
+  --create-button: #596D48;
+  --input-border: #E5E7EB;
+}
+body {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  min-height: 100vh;
+}
+header {
+  background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 35vw;
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+}
+main {
+  width: 55vw;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0.453);
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.logo img {
+  width: min(45px, 10vw);
+}
