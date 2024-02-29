@@ -15,37 +15,40 @@ body {
 }
 
 header {
+  --viewport-resize: 7vw;
+
   background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
   background-size: cover;
   background-position: center;
+
   width: 30vw;
+  padding-top: 100px;
+  padding-bottom: 10px;
 
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
-  padding-bottom: 10px;
 }
 .logo {
-  background-color: rgba(0, 0, 0, 0.448);
-
   display: flex;
   justify-content: center;
+  
   padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.448);
   margin-bottom: auto;
-  min-height: 113.575px;
 }
 .logo img {
-  width: 70px;
+  width: min(70px, var(--viewport-resize));
+  flex: none;
 }
 .site-name {
   font-family: norse;
   color: white;
   align-self: center;
-  font-size: 4.8rem;
+  font-size: min(4.8rem, var(--viewport-resize));
 }
 .credits p {
   margin: 0;
-  font-size: .8rem;
+  font-size: min(.8rem, 1.5vw);
   color: rgba(255, 255, 255, 0.715);
   text-align: center;
 }
