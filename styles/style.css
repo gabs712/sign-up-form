@@ -94,9 +94,11 @@ fieldset {
 
 .groups {
   display: flex;
-  gap: 0px 60px;
+  gap: 18px 60px;
   flex-wrap: wrap;
 }
+
+
 
 .group1, .group2 {
   display: flex;
