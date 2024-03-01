@@ -17,9 +17,10 @@ body {
 header {
   --viewport-resize: 7vw;
 
-  background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
+  /* background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg); */
   background-size: cover;
   background-position: center;
+  background-color: #596D48;
 
   width: 30vw;
   padding-top: 100px;
