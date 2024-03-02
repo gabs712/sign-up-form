@@ -43,20 +43,28 @@
     <form action="" method="get">
       <fieldset>
         <h3>Let's do this!</h3>
-        <div class="groups">
-          <div class="group1">
+        <div class="inputs">
+        <div class="inputGroup">
             <label for="f-name">FIRST NAME</label>
             <input type="text" id="f-name" name="f-name" autofocus required>
+          </div>
+          <div class="inputGroup">
+            <label for="l-name">LAST NAME</label>
+            <input type="text" id="l-name" name="l-name" required>
+          </div>
+          <div class="inputGroup">
             <label for="email">EMAIL</label>
             <input type="email" id="email" name="email" required>
+          </div>
+          <div class="inputGroup">
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="inputGroup">
             <label for="password">PASSWORD</label>
             <input type="password" id="password" name="password" required>
           </div>
-          <div class="group2">
-            <label for="l-name">LAST NAME</label>
-            <input type="text" id="l-name" name="l-name" required>
-            <label for="phone">PHONE NUMBER</label>
-            <input type="tel" id="phone" name="phone" required>
+          <div class="inputGroup">
             <label for="confirm">CONFIRM PASSWORD</label>
             <input type="password" name="confirm" id="confirm" required>
           </div>
