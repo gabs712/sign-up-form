@@ -66,12 +66,11 @@ main {
 }
 
 .description,
-fieldset,
-.login {
-  padding-left: 40px;
-}
-button[type=submit] {
+.bottom {
   margin-left: 40px;
+}
+fieldset {
+  padding-left: 40px;
 }
 
 .description {
@@ -154,4 +153,85 @@ button {
   color:  var(--create-button);
   text-decoration: none;
   font-weight: bold;
+}
+
+@media(max-width: 780px) {
+  body {
+    flex-direction: column;
+  }
+  header {
+    width: 100vw;
+  }
+  .description,
+  .bottom {
+    margin-left: 0;
+  }
+  fieldset {
+    padding-left: 0;
+  }
+  main {
+    width: 100%;
+  }
+  
+  .description {
+    text-align: center;
+    padding-inline: 14px;
+  }
+
+  .description p {
+    max-width: 100%;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputs {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    height: 70svh;
+    padding: 0;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+
+  .credits {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 93%;
+    white-space: nowrap;
+  }
+  .credits p{
+    font-size: .7rem;
+    max-width: 100%;
+  }
+
+  .logo {
+    margin-bottom: 0;
+    gap: 5px;
+  }
+
+  .logo img {
+    height: 80px;
+    width: auto;
+  }
+
+  .site-name {
+    font-size: 4rem;
+  }
 }
