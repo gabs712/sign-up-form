@@ -102,7 +102,7 @@ fieldset {
   display: flex;
   flex-wrap: wrap;
   gap: 20px 60px;
-  width: 80%;
+  max-width: 620px;
 }
 
 .inputGroup {
@@ -139,7 +139,7 @@ button {
   background-color: var(--create-button);
   color: white;
   border: none;
-  padding:10px 30px;
+  padding: 10px 30px;
   border-radius: 7px;
   font-size: .9rem;
 }
@@ -202,7 +202,7 @@ button {
   }
 
   header {
-    height: 80vh;
+    height: 40svh;
     padding: 0;
     justify-content: center;
     position: relative;
