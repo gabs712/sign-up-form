@@ -1,1 +1,1 @@
-Live preview https://gabs712.github.io/sign-up-form/
+Live preview: https://gabs712.github.io/sign-up-form/
